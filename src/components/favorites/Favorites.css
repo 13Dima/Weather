@@ -1,0 +1,30 @@
+.favorites{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.favorites_delete{
+    display: inline-block;
+    padding: 1px 2px;
+    border: 1px solid red;
+    background-color: #edbaba;
+    color: red;
+    text-decoration: none;
+    border-radius: 15px;
+}
+
+.favorites_city{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 20px;
+    margin: 2px; 
+    border-radius: 15px;
+    border: 2px solid #324b4e;
+    width: 120px;
+}
+
+.favorites_delete:hover {
+    background-color: #fff;
+}

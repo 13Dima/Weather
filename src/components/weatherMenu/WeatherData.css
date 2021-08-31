@@ -1,0 +1,23 @@
+.wather_info{
+    display: flex;
+    flex-direction: column;
+    height: 20px;
+    margin: 15px; 
+    
+}
+
+.wather_info_city_name{
+    border-radius: 15px;
+    width: 180px;
+    height: 45px;
+    padding-left: 10px;
+    border: 2px solid #324b4e;
+}
+
+.wather_info_menu{
+    border-radius: 12px;
+    width: 215px;
+    height: 185px;
+    padding-left: 10px;
+    border: 2px solid #324b4e;
+}
